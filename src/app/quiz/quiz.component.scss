@@ -1,0 +1,27 @@
+.card {
+    .card-header,
+    .card-footer,
+    .stepper {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 8px
+        }
+    }
+
+    &.inner-card > * {
+        margin: 8px;
+        button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: darkgray;
+
+            &.active {
+                background: #1976d2;
+                color: white;
+            }
+        }
+    }
+}
