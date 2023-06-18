@@ -1,0 +1,30 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1976d2;
+  color: white;
+
+  .heading {
+    font-size: 800;
+    font-weight: 800;
+  }
+
+  .dropdown {
+    position: absolute;
+    right: 0;
+
+    .button {
+        background-color: red !important;
+    }
+
+    li {
+        cursor: pointer;
+    }
+  }
+}
