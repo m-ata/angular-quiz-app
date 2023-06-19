@@ -1,0 +1,274 @@
+{
+    "quiz": {
+        "designPattern": {
+            "q1": {
+                "question": "Which of the following pattern works as a bridge between two incompatible interfaces?",
+                "options": [{
+                    "label": "Builder Pattern",
+                    "value": 1
+                },{
+                    "label": "Adapter Pattern",
+                    "value": 2
+                }, {
+                    "label": "Prototype Pattern",
+                    "value": 3
+                }, {
+                    "label": "Filter Pattern",
+                    "value": 4
+                }
+                ],
+                "answer": 2
+            },
+            "q2": {
+                "question": "Which of the following pattern is used when we want to pass data with multiple attributes in one shot from client to server?",
+                "options": [{
+                    "label": "Factory Pattern",
+                    "value": 1
+                },{
+                    "label": "Abstract Factory Pattern",
+                    "value": 2
+                }, {
+                    "label": "Singleton Pattern",
+                    "value": 3
+                }, {
+                    "label": "Transfer Object Pattern",
+                    "value": 4
+                }
+                ],
+                "answer": 4
+            },
+            "q3": {
+                "question": "Which of the following describes the Service Locator pattern correctly?",
+                "options": [{
+                    "label": "This pattern is used to separate low level data accessing API or operations from high level business services.",
+                    "value": 1
+                },{
+                    "label": "This pattern is used to provide a centralized request handling mechanism so that all requests will be handled by a single handler.",
+                    "value": 2
+                }, {
+                    "label": "This pattern is used when we want to do some pre-processing / post-processing with request or response of the application.",
+                    "value": 3
+                }, {
+                    "label": "This pattern is used when we want to locate various services using JNDI lookup.",
+                    "value": 4
+                }
+                ],
+                "answer": 4
+            },
+            "q4": {
+                "question": "Which of the following pattern creates a chain of receiver objects for a request?",
+                "options": [{
+                    "label": "Proxy Pattern",
+                    "value": 1
+                },{
+                    "label": "Chain of Responsibility Pattern",
+                    "value": 2
+                }, {
+                    "label": "Command Pattern",
+                    "value": 3
+                }, {
+                    "label": "Interpreter Pattern",
+                    "value": 4
+                }
+                ],
+                "answer": 2
+            },
+            "q5": {
+                "question": " Which of the following is the correct list of entities of Intercepting pattern?",
+                "options": [{
+                    "label": " Filter, Filter Chain, Target, Client",
+                    "value": 1
+                },{
+                    "label": "Filter, Target, Filter Manager, Client",
+                    "value": 2
+                }, {
+                    "label": "Filter, Filter Chain, Target, Filter Manager, Client",
+                    "value": 3
+                }, {
+                    "label": "Filter, Filter Chain, Filter Manager, Client",
+                    "value": 4
+                }
+                ],
+                "answer": 3
+            }
+        },
+        "angular": {
+            "q1": {
+                "question": "AngularJS is perfect for?",
+                "options": [{
+                    "label": "SPAs",
+                    "value": 1
+                },{
+                    "label": "MPAs",
+                    "value": 2
+                }, {
+                    "label": "DPAs",
+                    "value": 3
+                }, {
+                    "label": "CPAs",
+                    "value": 4
+                }
+                ],
+                "answer": 1
+            },
+            "q2": {
+                "question": "Which of the following is the correct syntax for writing AngularJS expressions?",
+                "options": [{
+                    "label": "(expression)",
+                    "value": 1
+                },{
+                    "label": "{{expression}}",
+                    "value": 2
+                }, {
+                    "label": "{{{expression}}}",
+                    "value": 3
+                }, {
+                    "label": "[expression]",
+                    "value": 4
+                }
+                ],
+                "answer": 2
+            },
+            "q3": {
+                "question": "Do AngularJS provide reusable components?",
+                "options": [{
+                    "label": "Yes",
+                    "value": 1
+                },{
+                    "label": "No",
+                    "value": 2
+                }
+                ],
+                "answer": 4
+            },
+            "q4": {
+                "question": "Which of the following directive is used to bind the application data to the HTML view in AngularJS?",
+                "options": [{
+                    "label": "ng-app directive",
+                    "value": 1
+                }, {
+                    "label": "ng-model directive",
+                    "value": 2
+                }, {
+                    "label": "ng-bind directive",
+                    "value": 3
+                }, {
+                    "label": "Ing-init directive",
+                    "value": 4
+                }
+                ],
+                "answer": 3
+            },
+            "q5": {
+                "question": "Which of the following syntax is correct for applying multiple filters in AngularJS?",
+                "options": [{
+                    "label": "{{ expression | filter1 | filter2 | ... }}",
+                    "value": 1
+                },{
+                    "label": "{{ expression | {filter1} | {filter2} | ... }}",
+                    "value": 2
+                }, {
+                    "label": "{{ expression - {filter1} - {filter2} - ... }}",
+                    "value": 3
+                }, {
+                    "label": "",
+                    "value": 4
+                }
+                ],
+                "answer": 1
+            }
+        },
+        "java": {
+            "q1": {
+                "question": "Which of the following is not a Java features?",
+                "options": [{
+                    "label": "Dynamic",
+                    "value": 1
+                },{
+                    "label": "Architecture Neutral",
+                    "value": 2
+                }, {
+                    "label": "Use of pointers",
+                    "value": 3
+                }, {
+                    "label": "Object oriented",
+                    "value": 4
+                }
+                ],
+                "answer": 3
+            },
+            "q2": {
+                "question": "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+                "options": [{
+                    "label": "getClass()",
+                    "value": 1
+                },{
+                    "label": "intern()",
+                    "value": 2
+                }, {
+                    "label": "getName()",
+                    "value": 3
+                }, {
+                    "label": "toString()",
+                    "value": 4
+                }
+                ],
+                "answer": 3
+            },
+            "q3": {
+                "question": "In which process, a local variable has the same name as one of the instance variables?",
+                "options": [{
+                    "label": "Serialization",
+                    "value": 1
+                },{
+                    "label": "Variable Shadowing",
+                    "value": 2
+                }, {
+                    "label": "Abstraction",
+                    "value": 3
+                }, {
+                    "label": "Multi-threading",
+                    "value": 4
+                }
+                ],
+                "answer": 2
+            },
+            "q4": {
+                "question": "Which of the following is true about the anonymous inner class?",
+                "options": [{
+                    "label": "It has only methods",
+                    "value": 1
+                },{
+                    "label": "Objects can't be created",
+                    "value": 2
+                }, {
+                    "label": "It has a fixed class name",
+                    "value": 3
+                }, {
+                    "label": "It has no class name",
+                    "value": 4
+                }
+                ],
+                "answer": 4
+            },
+            "q5": {
+                "question": "What do you mean by nameless objects?",
+                "options": [{
+                    "label": "An object created by using the new keyword.",
+                    "value": 1
+                },{
+                    "label": "An object of a superclass created in the subclass.",
+                    "value": 2
+                }, {
+                    "label": "An object without having any name but having a reference.",
+                    "value": 3
+                }, {
+                    "label": "An object that has no reference.",
+                    "value": 4
+                }
+                ],
+                "answer": 4
+            }
+        }
+    }
+}
